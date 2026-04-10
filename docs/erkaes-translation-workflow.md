@@ -1,6 +1,6 @@
 ## Prerequisites
 * Rosenkreuzstilette (*ver2.01b is* Steam Version, but you can use whatever version you want)
-* DXArc (You may obtain it [here](https://wiki.xentax.spektr.name/index.php/DX_Archive) or [here](https://archive.org/details/dxlib-tools))
+* DXArc (You may obtain it [here](https://wiki.xentax.spektr.name/index.php/DX_Archive) or [here](https://archive.org/details/dxlibtools))
 ---
 ## Extract files
 Encryption key can easily be obtained using DXArc  

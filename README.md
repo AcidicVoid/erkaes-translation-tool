@@ -1,4 +1,4 @@
-Erka:es
+Erka:es Translation Tool
 ---
 Tool for re-packing [Rosenkreuzstilette](https://rks.fandom.com/wiki/Rosenkreuzstilette) files.  
 This is intended for modification of translation files. Fan-Translations are now an easy thing to do!  
@@ -18,5 +18,5 @@ Pull requests are welcome!
 * **dxarc-pack.py** will pack modified translation files back to an DxLib archive the game can read
 ---
 ## Docs
-You can use this workflow to  
+You can use this workflow to unpack, modify and re-pack translation files:
 [Translation Workflow](docs/erkaes-translation-workflow.md)
