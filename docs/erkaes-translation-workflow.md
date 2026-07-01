@@ -8,23 +8,16 @@ You can try this if you're using another version of the game
 ```
 DXArc.exe b "path\to\SteamLibrary\steamapps\common\Rosenkreuzstilette\data\scenario.dat"
 Quick break v6
-  Trying 6A69776F2774756B6EE95EF1 (9596FD09D8D88A927396333D)...
-  Trying 6A69776F2774756B676B6972 (9596FD09D8D88A923B1440BE)...
+  Trying ...
 Zero search v5 to v1
-  Trying 6A69726F7473756B676A6972 (9596F8098BDF8A923B1540BE)...
-  Trying 6A69726F7473756B676A6972 (9596F8098BDF8A923B1540BE)...
-  Trying 6A69726F7473756B676A6972 (9596F8098BDF8A923B1540BE)...
-  Trying 6A69726F7473756B676A6972 (9596F8098BDF8A923B1540BE)...
-  Trying 6A69726F7473756B676A6972 (9596F8098BDF8A923B1540BE)...
-  Trying 6A69726F7473756B676A6972 (9596F8098BDF8A923B1540BE)...
-  Trying 6A69726F7473756B656A6972 (9596F8098BDF8A922B1540BE)...
-Success: 6A69726F7473756B656A6972 (9596F8098BDF8A922B1540BE)
+  Trying ...
+Success: <key> // Key will appear here on success
 ```
 Use the key to extract the scenario files:
 ```
 DXArc.exe ^
  e "path\to\SteamLibrary\steamapps\common\Rosenkreuzstilette\data\scenario.dat" ^
- -p 6A69726F7473756B656A6972  
+ -p <key>  
 ```
 This will create an output folder next to the .dat file:
 ```
@@ -60,9 +53,10 @@ Format
   * be sure to write everything in Shift JIS or convert your text
 
 ## Pack Files
+Use key obtained from DXArc
 ```
 uv run dxarc-pack.py ^
- -k 6A69726F7473756B656A6972 ^
+ -k <key> ^
  -i "temp\scenario_translated" ^
  -o "path\to\SteamLibrary\steamapps\common\Rosenkreuzstilette\data\scenario.dat"
 ```
