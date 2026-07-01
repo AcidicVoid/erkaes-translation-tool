@@ -39,11 +39,11 @@ Prepare extracted files
 Now move the output folder to a temp folder. We'll create a copy we can safely edit.  
 In this example, this copy will be packed to create a translated scenario.dat file the game will read.
 ```
+cd erkaes-translation-tool
 mkdir temp
+mv path\to\SteamLibrary\steamapps\common\Rosenkreuzstilette\data\scenario \temp
 cd temp
-mv "path\to\SteamLibrary\steamapps\common\Rosenkreuzstilette\data\scenario" "temp"
 cp -r "scenario" "scenario_translated"
-cd ..
 ```
 Also, make a backup of original scenario file before we overwrite it:
 ```
